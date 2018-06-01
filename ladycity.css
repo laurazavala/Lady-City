@@ -1,0 +1,93 @@
+#navbar {
+  background-color: black;
+  margin-bottom: 0px;
+}
+
+#cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 100px;
+  margin-right: 100px;
+ 
+  
+}
+.card{
+  width: 350px;
+  height: 350px;
+}
+
+#showcase {
+  min-height: 430px;
+  padding: 5px 50px 10px 50px;
+  background: url('https://images.pexels.com/photos/311012/pexels-photo-311012.jpeg');
+  text-align: center;
+  background-size: 100%;
+  min-height: 430px;
+  background-repeat: no-repeat;
+}
+
+#showcase h1 {
+  color: white;
+  margin-top: 2px;
+  font-size: 100px;
+  margin-bottom: 5px;
+  text-shadow: 5px 5px grey;
+  font-family: 'Yantramanav', sans-serif;
+  font-weight: bold;
+}
+
+#showcase p {
+  font-size: 50px;
+  color: white;
+  text-shadow: 5px 5px black;
+  font-family: 'Yantramanav', sans-serif;
+  font-weight: bolder;
+}
+
+#showtitle {
+ font-family: 'Yantramanav', sans-serif;
+}
+#aboutus {
+  text-align: center;
+  color: black;
+ font-family: 'Yantramanav', sans-serif;
+}
+
+
+#getheading {
+  text-align: center;
+}
+#getinvolved {
+    display:grid; 
+    grid-gap: 8px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 100px;
+}
+#cardss {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 500px;
+  margin-right: 500px;
+  text-align: center;
+  grid-gap: 20px;
+}
+h1{ 
+  text-align: center;
+  text-shadow: black;
+  font-family: 'Yantramanav', sans-serif;
+}
+h2{
+  text-align: center;
+  font-family: 'Yantramanav', sans-serif;
+}
+#contactss{
+  text-align: center;
+}
+p{
+  font-size: 20px;
+  font-family: 'Yantramanav', sans-serif;
+}
+#list{
+  font-size: 20px;
+  font-family: 'Yantramanav', sans-serif;
+}
